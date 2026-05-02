@@ -21,7 +21,6 @@ form.addEventListener('submit', (event) => {
 
   buildToDo(task)
 
-  // optional cleanup (safe)
   input.value = ''
 })
 });

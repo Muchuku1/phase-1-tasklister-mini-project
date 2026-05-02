@@ -15,7 +15,6 @@ function buildToDo(task) {
 form.addEventListener('submit', (event) => {
   event.preventDefault()
 
-  // ✅ FIX: reliable selector
   const input = document.getElementById('new-task-description')
 
   const task = input.value
